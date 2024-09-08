@@ -42,11 +42,11 @@ module.exports = {
         { from: "manifest.json", to: "manifest.json" },
       ],
     }),
-    new webpack.ProvidePlugin({
-      Buffer: ['buffer', 'Buffer'],
-    }),
-    new webpack.ProvidePlugin({
-      process: 'process/browser',
-    }),
+    //new webpack.ProvidePlugin({
+    //  Buffer: ['buffer', 'Buffer'],
+    //}),
+    //new webpack.ProvidePlugin({
+    //  process: 'process/browser',
+    //}),
   ],
 };
