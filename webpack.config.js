@@ -21,10 +21,10 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
     fallback: {
-      "crypto": require.resolve("crypto-browserify"),
-      "buffer": require.resolve("buffer/"),
-      "stream": require.resolve("stream-browserify"),
-      "process": require.resolve("process/browser"),
+      "crypto": false, // require.resolve("crypto-browserify"),
+      "buffer": false, // require.resolve("buffer/"),
+      "stream": false, // require.resolve("stream-browserify"),
+      "process": false, // require.resolve("process/browser"),
     }
   },
   output: {

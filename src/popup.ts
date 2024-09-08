@@ -5,10 +5,10 @@ import { SwapSDK, Chains, Assets } from "@chainflip/sdk/swap";
 // Initialize SDK
 const swapSDK = new SwapSDK({
   network: "perseverance",
-  broker: {
-    url: 'https://perseverance.chainflip-broker.io/rpc/93c2bff017e243f29ffb14e42dccbec8',
-    commissionBps: 0
-  },
+  //broker: {
+  //  url: 'https://perseverance.chainflip-broker.io/rpc/93c2bff017e243f29ffb14e42dccbec8',
+  //  commissionBps: 0
+  //},
 });
 
 // Function to get a quote for the swap
